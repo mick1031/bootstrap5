@@ -1,0 +1,207 @@
+body {
+    font-family: '-apple-system', BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.m-0auto {
+    margin: 0 auto;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.header-box {
+    background-color: #343a40;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.header-camera-icon {
+    margin-right: 0.5rem;
+    height: 20px;
+    width: 20px;
+}
+
+.header-menu-wrap {
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 56px;
+    height: 40px;
+    padding: 0;
+    font-size: 35px;
+    margin-top: .5rem;
+}
+
+.header-menu-icon {
+    font-size: 35px;
+}
+
+.header-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.banner-box {
+    padding: 96px 32px;
+}
+
+.banner-box .title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.banner-content {
+    max-width: 610px;
+}
+
+.banner-content p {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.banner-content .button-list {
+    display: flex;
+    justify-content: center;
+}
+
+.mail-button {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    margin: 0.5rem 0;
+    margin-right: 10px;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer
+}
+
+.secondary-button {
+    background-color: #6c757d;
+    border: 1px solid #6c757d;
+    margin: 0.5rem 0;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.list-box {
+    background-color: #e9ecef;
+}
+
+.list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.list-item {
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+    width: 33%;
+}
+
+@media (max-width: 992px) {
+    .list-item {
+        width: 100%;
+    }
+}
+
+.list-item-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: #fff;
+    border-radius: 0.25rem;
+}
+
+.list-item-head {
+    background-color: #545b62;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    color: #fff;
+}
+
+.list-item-body {
+    padding: 1.25rem;
+}
+
+.list-item-content {
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+.list-item-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item-footer .button-list {
+    display: flex;
+}
+
+.list-item-footer .button-right {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.list-item-footer .button-left {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.footer {
+    display: flex;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footer .left {
+    width: 100%;
+}
+
+.footer .right {
+    width: 100px;
+}
+
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer p {
+    margin-bottom: 0.25rem;
+    line-height: 1.5;
+}
